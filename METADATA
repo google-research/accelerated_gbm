@@ -1,0 +1,11 @@
+name: "accelerated_gbm"
+description:
+  "Accelerated gbm is an implementation of accelerated gradient boosted "
+  "machine method outlined in the paper https://arxiv.org/abs/1903.08708."
+
+third_party {
+  url {
+    type: PIPER
+    value: "//third_party/accelerated_gbm"
+  }
+}
